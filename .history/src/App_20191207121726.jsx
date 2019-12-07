@@ -20,7 +20,7 @@ const App = () => {
               <Link to="/1">All AllEmployees</Link>
             </li>
             <li>
-              <Link to="/2">AddEmployee</Link>
+              <Link to="/2">Page 2</Link>
             </li>
           </ul>
         </nav>
@@ -28,7 +28,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={AllEmployees}></Route>
-        <Route exact path="/2" component={AddEmployee}></Route>
+        <Route exact path="/2" component={Page2}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>
