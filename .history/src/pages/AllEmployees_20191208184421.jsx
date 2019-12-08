@@ -27,7 +27,7 @@ const AllEmployees = () => {
                   </p>
                   <p>
                     <Link
-                      className="employee-link"
+                      className="employee-boder"
                       to={'/employee/' + employee.id}
                     >
                       {employee.lastName}, {employee.firstName} :{' '}

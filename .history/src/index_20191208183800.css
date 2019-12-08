@@ -33,7 +33,6 @@ nav li {
   display: flex;
   margin: 2rem;
   justify-content: center;
-  color: #e76222;
 }
 
 .homepage-main {
@@ -42,20 +41,5 @@ nav li {
 }
 
 .oilers-logo {
-  height: 20rem;
-  width: auto;
-}
-.all-employees-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.allEmployees {
-  border: solid black;
-  margin: 2rem;
-}
-
-.employee-profile-image {
-  height: 13rem;
+  height: 5rem;
 }

@@ -45,17 +45,3 @@ nav li {
   height: 20rem;
   width: auto;
 }
-.all-employees-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.allEmployees {
-  border: solid black;
-  margin: 2rem;
-}
-
-.employee-profile-image {
-  height: 13rem;
-}

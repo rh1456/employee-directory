@@ -13,9 +13,7 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/" className="Nav-link">
-                Go Home
-              </Link>
+              <Link to="/">Go Home</Link>
             </li>
             <li>
               <Link to="/1" className="Nav-link">

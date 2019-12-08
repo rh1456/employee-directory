@@ -207,39 +207,6 @@ const AddEmployee = () => {
               <label htmlFor="emergencyContactName">
                 Emergency Contact Name
               </label>
-              <input
-                onChange={e => {
-                  setEmergencyContactPerson(e.target.value)
-                }}
-                type="text"
-                value={setEmergencyContactPerson}
-              />
-            </section>
-            <section className="employeeLabel">
-              <label htmlFor="emergencyContactPhone">
-                {' '}
-                Emergency Contact Phone
-              </label>
-              <input
-                onChange={e => {
-                  setEmergencyContactPhone.apply(e.target.value)
-                }}
-                type="text"
-                value={emergencyContactPhone}
-              />
-            </section>
-            <section className="employeeLabel">
-              <label htmlFor="pto">PTO Hours</label>
-              <input
-                onChange={e => {
-                  setPtoHours(e.target.value)
-                }}
-                type="text"
-                value={ptoHours}
-              />
-            </section>
-            <section className="sumbit">
-              <button className="submit-button">Submit Info</button>
             </section>
           </section>
         </form>

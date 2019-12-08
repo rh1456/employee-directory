@@ -53,9 +53,12 @@ nav li {
 }
 .allEmployees {
   border: solid black;
-  margin: 2rem;
+  padding: 1rem;
 }
 
 .employee-profile-image {
   height: 13rem;
+}
+.employee-link {
+  color: black;
 }

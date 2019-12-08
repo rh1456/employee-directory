@@ -53,7 +53,7 @@ nav li {
 }
 .allEmployees {
   border: solid black;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .employee-profile-image {

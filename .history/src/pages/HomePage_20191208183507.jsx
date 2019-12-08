@@ -7,7 +7,7 @@ const HomePage = () => {
       <header className="homepage-head">
         <h1 className="oilers">Welcome to Oilers' Employee Database</h1>
       </header>
-      <main className="homepage-main">
+      <main>
         <img src={Oilers} alt="OilersLogo" className="oilers-logo" />
       </main>
     </>

@@ -3,40 +3,33 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 // import AllEmployees from './pages/AllEmployees'
 import AddEmployee from './pages/AddEmployee'
 import HomePage from './pages/HomePage'
-import SingleEmployee from './pages/SingleEmployee'
+import NotFound from './pages/NotFound'
 import AllEmployees from './pages/AllEmployees'
 
 const App = () => {
   return (
     <Router>
       <header>
+        <h1>Employee Data</h1>
         <nav>
           <ul>
             <li>
-              <Link to="/" className="Nav-link">
-                Go Home
-              </Link>
+              <Link to="/">Go Home</Link>
             </li>
             <li>
-              <Link to="/1" className="Nav-link">
-                All Employees
-              </Link>
+              <Link to="/1">All AllEmployees</Link>
             </li>
             <li>
-              <Link to="/2" className="Nav-link">
-                Add Employee
-              </Link>
+              <Link to="/2">AddEmployee</Link>
             </li>
-            <li>{/* <Link to="/employee/:id">Si</Link> */}</li>
           </ul>
         </nav>
       </header>
-
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={AllEmployees}></Route>
         <Route exact path="/2" component={AddEmployee}></Route>
-        <Route path="/employee/:id" component={SingleEmployee}></Route>
+        <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>
   )

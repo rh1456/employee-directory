@@ -13,9 +13,7 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/" className="Nav-link">
-                Go Home
-              </Link>
+              <Link to="/">Go Home</Link>
             </li>
             <li>
               <Link to="/1" className="Nav-link">
@@ -23,9 +21,7 @@ const App = () => {
               </Link>
             </li>
             <li>
-              <Link to="/2" className="Nav-link">
-                Add Employee
-              </Link>
+              <Link to="/2">Add Employee</Link>
             </li>
             <li>{/* <Link to="/employee/:id">Si</Link> */}</li>
           </ul>

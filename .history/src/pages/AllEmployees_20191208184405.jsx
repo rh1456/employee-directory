@@ -26,10 +26,7 @@ const AllEmployees = () => {
                     Full-Time: {employee.isFullTime.toString() ? 'Yes' : 'No'}
                   </p>
                   <p>
-                    <Link
-                      className="employee-link"
-                      to={'/employee/' + employee.id}
-                    >
+                    <Link to={'/employee/' + employee.id}>
                       {employee.lastName}, {employee.firstName} :{' '}
                     </Link>
                     <span>{employee.jobTitle}</span>

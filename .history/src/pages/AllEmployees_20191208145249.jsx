@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 const AllEmployees = () => {
   const employeeAPI =
     'https://sdg-staff-directory-app.herokuapp.com/api/oilers/employees'
-  const [employeeData, setEmployeeData] = useState([])
+  const [employee, setEmployee] = useState([])
   const fetchData = async () => {
     const resp = await axios.get(employeeAPI)
-    setEmployeeData(resp.data)
+    setEmployee(resp.data)
   }
   useEffect(() => {
     fetchData()
@@ -16,8 +16,8 @@ const AllEmployees = () => {
 
   return (
     <>
-      <main className="all-employees-main">
-        {employeeData.map((employee, i) => {
+      <main>
+        {employee.map((employee, i) => {
           return (
             <>
               <section className="allEmployees">
@@ -26,11 +26,8 @@ const AllEmployees = () => {
                     Full-Time: {employee.isFullTime.toString() ? 'Yes' : 'No'}
                   </p>
                   <p>
-                    <Link
-                      className="employee-link"
-                      to={'/employee/' + employee.id}
-                    >
-                      {employee.lastName}, {employee.firstName} :{' '}
+                    <Link to={'/employee/' + employee.id}>
+                      {employee.firstName} {employee.lastName}{' '}
                     </Link>
                     <span>{employee.jobTitle}</span>
                   </p>

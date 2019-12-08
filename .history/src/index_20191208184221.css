@@ -52,8 +52,7 @@ nav li {
   flex-wrap: wrap;
 }
 .allEmployees {
-  border: solid black;
-  margin: 2rem;
+  padding: 1rem;
 }
 
 .employee-profile-image {

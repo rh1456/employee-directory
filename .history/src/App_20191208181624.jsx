@@ -13,25 +13,21 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/" className="Nav-link">
-                Go Home
-              </Link>
+              <Link to="/">Go Home</Link>
             </li>
             <li>
-              <Link to="/1" className="Nav-link">
-                All Employees
-              </Link>
+              <Link to="/1">All AllEmployees</Link>
             </li>
             <li>
-              <Link to="/2" className="Nav-link">
-                Add Employee
-              </Link>
+              <Link to="/2">AddEmployee</Link>
             </li>
             <li>{/* <Link to="/employee/:id">Si</Link> */}</li>
           </ul>
         </nav>
       </header>
-
+      <main>
+        <h1>Welcome to Oilers' Employee's Directory</h1>
+      </main>
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={AllEmployees}></Route>
