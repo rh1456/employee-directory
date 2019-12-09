@@ -173,7 +173,7 @@ const AddEmployee = () => {
                 value={city}
               />
             </section>
-            <section className="employeeLabel">
+            <section className="employeelabel">
               <label htmlFor="state">State</label>
               <input
                 onChange={e => {

@@ -65,7 +65,6 @@ nav li {
 .employee-box-head {
   margin: 0;
   height: 2rem;
-  color: white;
   background-color: #cb622e;
   font-style: italic;
 }
@@ -76,20 +75,4 @@ nav li {
   padding-top: 1rem;
   height: 2rem;
   background-color: #cb622e;
-}
-
-.employee-info-box {
-  background-color: #6b9be8;
-  margin: 0;
-}
-.submit-button {
-  margin: 1rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-label {
-  padding: 1rem;
-}
-
-input {
-  color: blue;
 }

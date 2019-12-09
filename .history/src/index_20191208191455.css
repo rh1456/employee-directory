@@ -83,13 +83,5 @@ nav li {
   margin: 0;
 }
 .submit-button {
-  margin: 1rem;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-label {
-  padding: 1rem;
-}
-
-input {
-  color: blue;
 }

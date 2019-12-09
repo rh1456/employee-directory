@@ -23,27 +23,26 @@ const AllEmployees = () => {
               <section className="allEmployees">
                 <section className="employee" key={i}>
                   <h1 className="employee-box-head">Employee</h1>
-                  <div className="employee-info-box">
-                    <p>
-                      Full-Time: {employee.isFullTime.toString() ? 'Yes' : 'No'}
-                    </p>
-                    <p>
-                      <Link
-                        className="employee-link"
-                        to={'/employee/' + employee.id}
-                      >
-                        {employee.lastName}, {employee.firstName} :{' '}
-                      </Link>
-                      <span>{employee.jobTitle}</span>
-                    </p>
-                    <section className="employeeimage">
-                      <img
-                        className="employee-profile-image"
-                        src={employee.profileImage}
-                        alt=""
-                      />
-                    </section>
-                  </div>
+                  <div className="employee-info-box"
+                  <p>
+                    Full-Time: {employee.isFullTime.toString() ? 'Yes' : 'No'}
+                  </p>
+                  <p>
+                    <Link
+                      className="employee-link"
+                      to={'/employee/' + employee.id}
+                    >
+                      {employee.lastName}, {employee.firstName} :{' '}
+                    </Link>
+                    <span>{employee.jobTitle}</span>
+                  </p>
+                  <section className="employeeimage">
+                    <img
+                      className="employee-profile-image"
+                      src={employee.profileImage}
+                      alt=""
+                    />
+                  </section>
                 </section>
               </section>
             </>

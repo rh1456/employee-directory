@@ -42,8 +42,8 @@ const AllEmployees = () => {
                         src={employee.profileImage}
                         alt=""
                       />
-                    </section>
-                  </div>
+                    </div>
+                  </section>
                 </section>
               </section>
             </>
